@@ -1,0 +1,4 @@
+/api_data/*
+/final_videos/*
+/tts_audio/*
+.env

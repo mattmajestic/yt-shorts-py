@@ -1,0 +1,35 @@
+{
+    "subtitles": [
+      {
+        "text": "This content was generated in Python.",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Docker is for developing applications in containers.",
+        "start": 3,
+        "end": 10
+      },
+      {
+        "text": "Package your application into a standardized unit.",
+        "start": 10,
+        "end": 16
+      },
+      {
+        "text": "Docker  promotes consistency, efficiency, and scalability.",
+        "start": 16,
+        "end": 26
+      },
+      {
+        "text": "Understanding Docker can also enhance your job prospects .",
+        "start": 26,
+        "end": 34
+      },
+      {
+        "text": "Making you a valuable asset to organizations.",
+        "start": 34,
+        "end": 40
+      }
+    ]
+  }
+  
