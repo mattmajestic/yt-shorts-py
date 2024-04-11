@@ -1,4 +1,4 @@
-# Video Editing Project with Python 🎥
+# YouTube Shorts with Python 🎥
 
 ## Overview
 This project aims to automate video editing tasks using Python, primarily leveraging the MoviePy library. It combines video clips, audio, and subtitles to create engaging video content programmatically.
