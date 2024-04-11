@@ -4,42 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Shorts with Python 🎥</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-        h2 {
-            color: #007bff;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        iframe {
-            width: 100%;
-            height: 400px;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -48,16 +13,23 @@
     <div class="container">
         <h2>Overview</h2>
         <p>This project aims to automate video editing tasks using Python, primarily leveraging the MoviePy library. It combines video clips, audio, and subtitles to create engaging video content programmatically.</p>
+        <h2>Video Demo</h2>
+        <button onclick="toggleVideo('docker')">
+            <span class="icon">🐳</span> View Docker
+        </button>
+        <button onclick="toggleVideo('blockchain')">
+            <span class="icon">🔗</span> View Blockchain
+        </button>
+        <iframe id="docker-iframe" src="https://drive.google.com/file/d/14Cp3I6QFi7SRA8-mYmAiIXujKm5WM-xv/preview" frameborder="0" allowfullscreen></iframe>
+        <iframe id="blockchain-iframe" src="https://drive.google.com/file/d/13O8IKePJPIv6qzPF_a7jHHNo-u6yOQ1-/preview" frameborder="0" allowfullscreen style="display:none;"></iframe>
         <h2>Technologies Used</h2>
         <ul>
-            <li>Python: Main programming language for scripting and automation.</li>
-            <li>MoviePy: Python library for video editing and manipulation.</li>
-            <li>gTTS (Google Text-to-Speech): Used for converting text to speech for audio narration.</li>
-            <li>News API: Accessing technology news data for incorporating into videos.</li>
-            <li>Pexels API: Retrieving stock videos to enhance video content.</li>
+            <li>Python</li>
+            <li>MoviePy</li>
+            <li>gTTS (Google Text-to-Speech)</li>
+            <li>Pexels API</li>
         </ul>
-        <h2>Video Demo</h2>
-        <iframe src="https://drive.google.com/file/d/1bj9gf1xraOiehAx4fIewSfAMq83Eal8U/preview" frameborder="0" allowfullscreen></iframe>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
