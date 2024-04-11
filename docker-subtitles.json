@@ -1,35 +1,39 @@
 {
-    "subtitles": [
+  "subtitles": [
       {
-        "text": "This content was generated in Python.",
-        "start": 0,
-        "end": 3
+          "text": "This content was generated in Python \ud83d\udc0d",
+          "start": 0,
+          "end": 3
       },
       {
-        "text": "Docker is for developing applications in containers.",
-        "start": 3,
-        "end": 10
+          "text": "Docker is for developing applications in containers \ud83d\udc33",
+          "start": 3,
+          "end": 10
       },
       {
-        "text": "Package your application into a standardized unit.",
-        "start": 10,
-        "end": 16
+          "text": "Package your application in standardized unit \ud83d\udce6",
+          "start": 10,
+          "end": 16
       },
       {
-        "text": "Docker  promotes consistency, efficiency, and scalability.",
-        "start": 16,
-        "end": 26
+          "text": "Docker = consistency, efficiency, + scalability \ud83d\udcaa",
+          "start": 16,
+          "end": 26
       },
       {
-        "text": "Understanding Docker can also enhance your job prospects .",
-        "start": 26,
-        "end": 34
+          "text": "Docker can also enhance your job prospects \ud83d\udcbc",
+          "start": 26,
+          "end": 34
       },
       {
-        "text": "Making you a valuable asset to organizations.",
-        "start": 34,
-        "end": 40
+          "text": "Making you valuable to organizations \ud83d\udcce",
+          "start": 34,
+          "end": 40
+      },
+      {
+          "text": "\ud83d\udc4d Like and Subscribe \ud83d\udc4d",
+          "start": 40,
+          "end": 45
       }
-    ]
-  }
-  
+  ]
+}

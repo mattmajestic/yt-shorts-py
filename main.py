@@ -21,7 +21,7 @@ with open('docker.json', 'r') as file:
     data = json.load(file)
     
 # Load the JSON file
-with open('docker-subtitles.json', 'r') as file:
+with open('docker-subtitles.json', 'r', encoding='utf-8') as file:
     subtitles = json.load(file)
 
 # Access the title and content
@@ -95,7 +95,7 @@ def create_movie_with_audio_and_subtitles(video_filename, audio_filename, text, 
     final_video_name = f"{timestamp}.mp4"
 
     video_clip = VideoFileClip(video_filename)
-    video_clip = concatenate_videoclips([video_clip, video_clip])
+    video_clip = concatenate_videoclips([video_clip, video_clip, video_clip, video_clip, video_clip])
     audio_clip = AudioFileClip(audio_filename)
     
     # Calculate text duration based on text length
@@ -114,7 +114,7 @@ def create_movie_with_audio_and_subtitles(video_filename, audio_filename, text, 
         subtitle_duration = end_time - start_time
         
         # Generate text clip for the subtitle
-        txt_clip = TextClip(subtitle_text, fontsize=70, color='white', align='center', font='Arial-Bold', size=video_clip.size)
+        txt_clip = TextClip(subtitle_text, fontsize=120, color='white', align='center', font='Arial-Bold', size=video_clip.size, stroke_color='black', stroke_width=3)
         txt_clip = txt_clip.set_pos('center').set_duration(subtitle_duration).fadein(0.5).fadeout(0.5).set_start(start_time)
         
         # Add the subtitle clip to the list
@@ -131,7 +131,7 @@ def create_movie_with_audio_and_subtitles(video_filename, audio_filename, text, 
 
 def main():
     print("Fetching stock video...")
-    video_filename = get_stock_video(query='drone')
+    video_filename = get_stock_video(query='night moon stars')
     if video_filename:
         # Load content from docker.json
         with open('docker.json', 'r') as file:
